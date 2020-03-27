@@ -14,9 +14,7 @@
 		<exec.maven.plugin>1.5.0</exec.maven.plugin>
 		<maven.compiler.plugin>3.5</maven.compiler.plugin>
 		<falcon.ui.version>0.1.5.beta</falcon.ui.version>
-		<falcon.ui.staging.version>0.1.5.beta</falcon.ui.staging.version>
 		<release.repo.url>${falcon.repo.url}</release.repo.url>
-		<staging.repo.url>${falcon.repo.url}</staging.repo.url>
 		<java.source.version>1.8</java.source.version>
 		<java.target.version>1.8</java.target.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,28 +43,7 @@
 				</dependency>
 			</dependencies>
 		</profile>
-		<profile>
-			<id>staging</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-			</activation>
-			<repositories>
-				<repository>
-					<id>falcon</id>
-					<name>atmecs falcon</name>
-					<url>${release.repo.url}</url>
-					<releases>
-					</releases>
-				</repository>
-			</repositories>
-			<dependencies>
-				<dependency>
-					<groupId>com.atmecs.falcon.automation</groupId>
-					<artifactId>falcon-ui</artifactId>
-					<version>${falcon.ui.staging.version}</version>
-				</dependency>
-			</dependencies>
-		</profile>
+		
 	</profiles>
 
 	<dependencies>
