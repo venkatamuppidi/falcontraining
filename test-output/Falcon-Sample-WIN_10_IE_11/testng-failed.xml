@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_10_IE_11]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.ui.automation.testscript.TestGmail">
+        <methods>
+          <include name="LogintoGmail"/>
+          <include name="LunchIndigosite"/>
+          <include name="preSetup"/>
+        </methods>
+      </class> <!-- com.ui.automation.testscript.TestGmail -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_IE_11] -->
