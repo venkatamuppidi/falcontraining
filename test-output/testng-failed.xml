@@ -9,8 +9,8 @@
     <classes>
       <class name="com.ui.automation.testscript.TestRegisterMember">
         <methods>
+          <include name="Lunchsite"/>
           <include name="preSetup"/>
-          <include name="AddTopstotheCart"/>
           <include name="LogintoGmail"/>
         </methods>
       </class> <!-- com.ui.automation.testscript.TestRegisterMember -->

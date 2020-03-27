@@ -23,6 +23,7 @@ import com.ui.automation.helper.Ecommercshelper;
 import com.ui.automation.pages.HomePage;
 import com.ui.automation.pages.Loginpage;
 import com.ui.automation.pages.Productpage;
+import com.ui.automation.pages.ShoppingCartPage;
 import com.ui.automation.pages.Womenpage;
 import com.ui.automation.testsuite.TestSuiteBase;
 
@@ -44,28 +45,31 @@ XlsReader xlsReader =new XlsReader();
 	Womenpage womenpage;
 	Productpage productpage;
 	HomePage homepage;
+	ShoppingCartPage shoppingcart;
 	public String testDataFilePath = Constants.DASHBOARD_TEST_DATA_HOME;
 	public String testDataSheetName= Constants.DASHBOARD_TEST_DATA_SHEET;
 	public String testDataSheetName_Product= Constants.PRODUCT_TEST_DATA_SHEET;
-
+// Launching the site 
 	@BeforeMethod
 	@Parameters({"os", "osVersion", "browser", "browserVersion"})
-	public void LunchGmailsite(String os, String osVersion, String br, String browserVersion) {
-		report.info("launching the gmail homepage");
+	public void Lunchsite(String os, String osVersion, String br, String browserVersion) {
+		report.info("launching the portal homepage");
 		Echelper = new Ecommercshelper(browser);
 		homepage=new HomePage(browser);
 		loginpage=new Loginpage(browser);
 		womenpage=new Womenpage(browser);
 		productpage =new Productpage(browser);
+		shoppingcart=new ShoppingCartPage(browser);
 		Echelper.launchsite(os, osVersion, br, browserVersion);
 	}
+	//Providing the Maild and Password through the excel 
 	  @DataProvider(name = "testdata") 
 	  public Object[][] getTestData() {
 		  Object[][] testdata=testData.Data(testDataFilePath, testDataSheetName); 
 		  return testdata;
 	  }
 	  
-	  @Test(priority=1,dataProvider = "testdata") 
+	  @Test(dataProvider = "testdata") 
 	  public void LogintoGmail(String mailid ,String pwrd) throws Exception {
 		  report.info("Log into website ");
 	  browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
@@ -73,10 +77,7 @@ XlsReader xlsReader =new XlsReader();
 	  loginpage.enterpassword(pwrd); loginpage.clickonSignIn();
 	  VerificationManager.verifyBoolean(browser.getDriver().findElement(By.xpath(
 	  Homepage.getProperty("Homepage_my_customer_acccount"))).isDisplayed(), true, "Member not login sucessfully"); 
-	  }
-	 
-	@Test(priority=2)
-	public void AddTopstotheCart() {
+	  
 		report.info("click on Tops ");
 		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
 		try {
@@ -87,26 +88,29 @@ XlsReader xlsReader =new XlsReader();
 		}
 		int rowCount = xlsReader.getRowCount(testDataSheetName);
 		for (int iRow = 1; iRow <= rowCount; iRow++) {
-			String Productname=xlsReader.getCellDataByColumnName(testDataSheetName, "ProductName", iRow);
-			String Size=xlsReader.getCellDataByColumnName(testDataSheetName, "Size", iRow);
-			String Color =xlsReader.getCellDataByColumnName(testDataSheetName, "Color", iRow);
 			String Expectedmessage=xlsReader.getCellDataByColumnName(testDataSheetName, "Expectedmessage", iRow);
-			String Quanity=xlsReader.getCellDataByColumnName(testDataSheetName, "Quanity", iRow);
 			homepage.clickonWomenlink();
 			womenpage.ClickonTops();
-			productpage.Selectproduct(Productname);
-			productpage.providesize(Size);
-			productpage.Selectquanity(Quanity);
-			productpage.Selectcolor(Color);
+			productpage.Selectproduct(xlsReader.getCellDataByColumnName(testDataSheetName, "ProductName", iRow));
+			productpage.providesize(xlsReader.getCellDataByColumnName(testDataSheetName, "Size", iRow));
+			productpage.Selectquanity(xlsReader.getCellDataByColumnName(testDataSheetName, "Quanity", iRow));
+			productpage.Selectcolor(xlsReader.getCellDataByColumnName(testDataSheetName, "Color", iRow));
 			productpage.Addtocart();
 			Boolean present=VerificationManager.verifyString(browser.getDriver().findElement(By.xpath(Homepage.getProperty("Women_assert_message"))).getText(), Expectedmessage, "Product not Added sucessfully");
 			if (present.equals(true)) {
+				browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
 				productpage.clickonContinueShopping();
 			}
 		}
 		productpage.clickonProceedtoCheckout();
-	}
-
+		shoppingcart.clickonProceedtocheckout();
+		shoppingcart.clickonProceedtocheckout();
+		shoppingcart.clickonAgreecheckbox();
+		shoppingcart.clickonPayBybankwire();
+		shoppingcart.clickonConfirmOrder();
+	
+	  }
+	  
 
 	@AfterMethod
 	public void teardown() {

@@ -3,7 +3,4 @@ com\ui\automation\pages\Loginpage.class
 com\ui\automation\testsuite\TestSuiteBase.class
 com\ui\automation\helper\CommonMethods.class
 com\ui\automation\runner\TestNGRunner.class
-com\ui\automation\pages\GoogleSearchpage.class
-com\ui\automation\helper\Spiecejethelper.class
 com\ui\automation\dataprovider\Testdata.class
-com\ui\automation\testscript\TestScript.class

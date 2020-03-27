@@ -28,15 +28,17 @@ public class Ecommercshelper {
 	public   Properties homepage=testData.loadProperties(Constants.HOMEPAGE);
 	 XlsReader xlsReader = new XlsReader();
 
-
+//Initialization the browser
 	public Ecommercshelper(Browser browser) {
 		this.browser=browser;
 		
 	}
+	
+	//Initialization the browser and opening the website 
 	public void launchsite(String os, String osVersion, String br, String browserVersion) {
 		report.info("Opening browser: "+ br);
-		browser.openURL(homepage.getProperty("URL") ,os, osVersion, br, browserVersion);
-		System.out.println("url"+homepage.getProperty("URL"));
+		browser.openURL("https://www.google.com/" ,os, osVersion, br, browserVersion);
+		//homepage.getProperty("URL")
 		report.info("Maximizing browser window");
 		browser.maximizeWindow();
 		browser.getDriver().manage().timeouts().pageLoadTimeout(Constants.MIN_WAIT_TIME, TimeUnit.SECONDS);

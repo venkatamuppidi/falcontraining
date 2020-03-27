@@ -22,15 +22,17 @@ public class Womenpage {
 	Testdata testData=new Testdata();
 	Browser browser;
 	public   Properties womenpage=testData.loadProperties(Constants.WOMENPAGE);
+	//Initialization the browser	
 	public Womenpage(Browser browser) {
 		this.browser=browser;
 	}
-	
+	//Selecting the tops  in subcategaries
 	public Productpage ClickonTops() {
 		report.info("click on Subcategories on Tops ");
 		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Women_subcategories_tops"))).click();
 		return new Productpage(browser);
 	}
+	//Selecting  the Dresses on the Subcategaried on Women link 
 	public void ClickonDresses() {
 		report.info("click on Subcategories on Dresses ");
 		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Women_subcategories_dresses"))).click();	
