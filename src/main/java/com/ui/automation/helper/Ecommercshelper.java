@@ -37,7 +37,7 @@ public class Ecommercshelper {
 	//Initialization the browser and opening the website 
 	public void launchsite(String os, String osVersion, String br, String browserVersion) {
 		report.info("Opening browser: "+ br);
-		browser.openURL("https://www.google.com/" ,os, osVersion, br, browserVersion);
+		browser.openURL(homepage.getProperty("URL"),os, osVersion, br, browserVersion);
 		//homepage.getProperty("URL")
 		report.info("Maximizing browser window");
 		browser.maximizeWindow();

@@ -33,7 +33,7 @@ import com.ui.automation.testsuite.TestSuiteBase;
  */
 public class TestRegisterMember extends TestSuiteBase{
 
-XlsReader xlsReader =new XlsReader();
+	XlsReader xlsReader =new XlsReader();
 
 	private ReportLogService report = new ReportLogServiceImpl(TestRegisterMember.class);
 
@@ -49,7 +49,7 @@ XlsReader xlsReader =new XlsReader();
 	public String testDataFilePath = Constants.DASHBOARD_TEST_DATA_HOME;
 	public String testDataSheetName= Constants.DASHBOARD_TEST_DATA_SHEET;
 	public String testDataSheetName_Product= Constants.PRODUCT_TEST_DATA_SHEET;
-// Launching the site 
+	// Launching the site 
 	@BeforeMethod
 	@Parameters({"os", "osVersion", "browser", "browserVersion"})
 	public void Lunchsite(String os, String osVersion, String br, String browserVersion) {
@@ -63,21 +63,26 @@ XlsReader xlsReader =new XlsReader();
 		Echelper.launchsite(os, osVersion, br, browserVersion);
 	}
 	//Providing the Maild and Password through the excel 
-	  @DataProvider(name = "testdata") 
-	  public Object[][] getTestData() {
-		  Object[][] testdata=testData.Data(testDataFilePath, testDataSheetName); 
-		  return testdata;
-	  }
-	  
-	  @Test(dataProvider = "testdata") 
-	  public void LogintoGmail(String mailid ,String pwrd) throws Exception {
-		  report.info("Log into website ");
-	  browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
-	  homepage.clickonSignin(); loginpage.enterUsername(mailid);
-	  loginpage.enterpassword(pwrd); loginpage.clickonSignIn();
-	  VerificationManager.verifyBoolean(browser.getDriver().findElement(By.xpath(
-	  Homepage.getProperty("Homepage_my_customer_acccount"))).isDisplayed(), true, "Member not login sucessfully"); 
-	  
+	@DataProvider(name = "testdata") 
+	public Object[][] getTestData() {
+		Object[][] testdata=testData.Data(testDataFilePath, testDataSheetName); 
+		return testdata;
+	}
+
+	@Test(dataProvider = "testdata") 
+	public void LogintoGmail(String mailid ,String pwrd) throws Exception {
+		report.info("Log into website ");
+		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
+		homepage.clickonSignin();
+		loginpage.enterUsername(mailid);
+		browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
+		loginpage.enterpassword(pwrd); 
+		browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
+		loginpage.clickonSignIn();
+		browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
+		VerificationManager.verifyBoolean(browser.getDriver().findElement(By.xpath(
+				Homepage.getProperty("Homepage_my_customer_acccount"))).isDisplayed(), true, "Member not login sucessfully"); 
+
 		report.info("click on Tops ");
 		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
 		try {
@@ -86,15 +91,17 @@ XlsReader xlsReader =new XlsReader();
 			report.error("IOExeption occured as " + ioException.getMessage());
 			return;
 		}
-		int rowCount = xlsReader.getRowCount(testDataSheetName);
+		int rowCount = xlsReader.getRowCount(testDataSheetName_Product);
 		for (int iRow = 1; iRow <= rowCount; iRow++) {
-			String Expectedmessage=xlsReader.getCellDataByColumnName(testDataSheetName, "Expectedmessage", iRow);
+			String Expectedmessage=xlsReader.getCellDataByColumnName(testDataSheetName_Product, "Expectedmessage", iRow);
 			homepage.clickonWomenlink();
+			browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
 			womenpage.ClickonTops();
-			productpage.Selectproduct(xlsReader.getCellDataByColumnName(testDataSheetName, "ProductName", iRow));
-			productpage.providesize(xlsReader.getCellDataByColumnName(testDataSheetName, "Size", iRow));
-			productpage.Selectquanity(xlsReader.getCellDataByColumnName(testDataSheetName, "Quanity", iRow));
-			productpage.Selectcolor(xlsReader.getCellDataByColumnName(testDataSheetName, "Color", iRow));
+			browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
+			productpage.Selectproduct(xlsReader.getCellDataByColumnName(testDataSheetName_Product, "ProductName", iRow));
+			productpage.providesize(xlsReader.getCellDataByColumnName(testDataSheetName_Product, "Size", iRow));
+			productpage.Selectquanity(xlsReader.getCellDataByColumnName(testDataSheetName_Product, "Quanity", iRow));
+			productpage.Selectcolor(xlsReader.getCellDataByColumnName(testDataSheetName_Product, "Color", iRow));
 			productpage.Addtocart();
 			Boolean present=VerificationManager.verifyString(browser.getDriver().findElement(By.xpath(Homepage.getProperty("Women_assert_message"))).getText(), Expectedmessage, "Product not Added sucessfully");
 			if (present.equals(true)) {
@@ -108,9 +115,9 @@ XlsReader xlsReader =new XlsReader();
 		shoppingcart.clickonAgreecheckbox();
 		shoppingcart.clickonPayBybankwire();
 		shoppingcart.clickonConfirmOrder();
-	
-	  }
-	  
+
+	}
+
 
 	@AfterMethod
 	public void teardown() {

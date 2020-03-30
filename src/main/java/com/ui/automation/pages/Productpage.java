@@ -21,9 +21,9 @@ import com.ui.automation.helper.Ecommercshelper;
  */
 public class Productpage {
 	private static final ReportLogService report=new ReportLogServiceImpl(Productpage.class);
-	Testdata testData=new Testdata();
-	Browser browser;
-	public    Properties womenpage=testData.loadProperties(Constants.WOMENPAGE);
+	 Testdata testData=new Testdata();
+	 Browser browser;
+	public     Properties womenpage=testData.loadProperties(Constants.WOMENPAGE);
 	
 	//Initialization the browser	
 	public Productpage(Browser browser) {
@@ -33,7 +33,6 @@ public class Productpage {
 	public void Selectproduct(String productname) {
 		report.info("select the  Product ");
 		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Womenpage_selectProductName")+productname+womenpage.getProperty("Womenspage_endpoint"))).click();
-		System.out.println(womenpage.getProperty("Womenpage_selectProductName")+productname+womenpage.getProperty("Womenspage_endpoint"));
 	}
 	//Select the size of the product 
 	public void providesize(String size) {
@@ -48,6 +47,7 @@ public class Productpage {
 	//Select the no.of Quanity need
 	public void Selectquanity(String quanity) {
 		report.info("Select the quanity ");
+		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Women_quantity"))).clear();
 		browser.getTextField().enterTextField(LocatorType.XPATH, womenpage.getProperty("Women_quantity"),quanity );
 	}
 	//Click on AddtoCart after selecting the product 
@@ -71,7 +71,6 @@ public class Productpage {
 		
 		
 	
-
 
 }
 	

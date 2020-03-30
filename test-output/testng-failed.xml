@@ -10,8 +10,9 @@
       <class name="com.ui.automation.testscript.TestRegisterMember">
         <methods>
           <include name="Lunchsite"/>
+          <include name="teardown"/>
           <include name="preSetup"/>
-          <include name="LogintoGmail"/>
+          <include name="LogintoGmail" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.ui.automation.testscript.TestRegisterMember -->
     </classes>

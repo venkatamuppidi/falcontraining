@@ -128,6 +128,7 @@ public class TestNonRegisterMember  extends  TestSuiteBase{
 			registrationpage.EnterthePhonenum(Mobilenum);
 			registrationpage.entertheDob(Dob);
 			registrationpage.clickonRegisterButton();
+			browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
 			}
 		}
 		shoppingcart.clickonProceedtocheckout();

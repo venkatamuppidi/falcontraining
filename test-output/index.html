@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77">
-              <span class="suite-name border-skipped">Falcon-Sample-WIN_10_CHROME_77</span>
+              <span class="suite-name border-failed">Falcon-Sample-WIN_10_CHROME_77</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" class="hide-methods skipped suite-Falcon-Sample-WIN_10_CHROME_77"> (hide)</a> <!-- hide-methods skipped suite-Falcon-Sample-WIN_10_CHROME_77 -->
-                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" class="show-methods skipped suite-Falcon-Sample-WIN_10_CHROME_77"> (show)</a> <!-- show-methods skipped suite-Falcon-Sample-WIN_10_CHROME_77 -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" class="hide-methods failed suite-Falcon-Sample-WIN_10_CHROME_77"> (hide)</a> <!-- hide-methods failed suite-Falcon-Sample-WIN_10_CHROME_77 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" class="show-methods failed suite-Falcon-Sample-WIN_10_CHROME_77"> (show)</a> <!-- show-methods failed suite-Falcon-Sample-WIN_10_CHROME_77 -->
                     </span>
-                    <div class="method-list-content skipped suite-Falcon-Sample-WIN_10_CHROME_77">
+                    <div class="method-list-content failed suite-Falcon-Sample-WIN_10_CHROME_77">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" title="com.ui.automation.testscript.TestRegisterMember" hash-for-method="LogintoGmail(venkatklu1993@gmail.com, Venkat@6718)">LogintoGmail(venkatklu1993@gmail.com, Venkat@6718)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Falcon-Sample-WIN_10_CHROME_77 -->
+                    </div> <!-- method-list-content failed suite-Falcon-Sample-WIN_10_CHROME_77 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,9 +116,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Falcon-Sample-WIN_10_CHROME_77" class="panel Falcon-Sample-WIN_10_CHROME_77">
-          <div class="suite-Falcon-Sample-WIN_10_CHROME_77-class-skipped">
+          <div class="suite-Falcon-Sample-WIN_10_CHROME_77-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.ui.automation.testscript.TestRegisterMember</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,18 @@
                   </a> <!-- LogintoGmail(venkatklu1993@gmail.com, Venkat@6718) -->
                   <span class="method-name">LogintoGmail</span>
                   <span class="parameters">(venkatklu1993@gmail.com, Venkat@6718)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+	at org.openqa.selenium.By.xpath(By.java:113)
+	at com.ui.automation.testscript.TestRegisterMember.LogintoGmail(TestRegisterMember.java:106)
+	at com.ui.automation.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Falcon-Sample-WIN_10_CHROME_77-class-skipped -->
+          </div> <!-- suite-Falcon-Sample-WIN_10_CHROME_77-class-failed -->
         </div> <!-- panel Falcon-Sample-WIN_10_CHROME_77 -->
         <div panel-name="test-xml-Falcon-Sample-WIN_10_CHROME_77" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -192,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LogintoGmail')
 data.setCell(0, 2, 'com.ui.automation.testscript.TestRegisterMember')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 128729);
 window.suiteTableData['Falcon-Sample-WIN_10_CHROME_77']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_CHROME_77'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Falcon-Sample-WIN_10_CHROME_77">
               </div> <!-- times-div-Falcon-Sample-WIN_10_CHROME_77 -->
             </div> <!-- times-div -->
@@ -208,6 +216,28 @@ return data;
             <span class="header-content">Reporter output for Falcon-Sample-WIN_10_CHROME_77</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogintoGmail(venkatklu1993@gmail.com, Venkat@6718)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Log into website </span>
+                <span class="reporter-method-output">click on sign button </span>
+                <span class="reporter-method-output">enter the emailid</span>
+                <span class="reporter-method-output">enter the password</span>
+                <span class="reporter-method-output">Click on SignButton</span>
+                <span class="reporter-method-output">PASS : Member not login sucessfully: ACTUAL : true 	EXPECTED :true</span>
+                <span class="reporter-method-output">click on Tops </span>
+                <span class="reporter-method-output">Selecting the Women</span>
+                <span class="reporter-method-output">click on Subcategories on Tops </span>
+                <span class="reporter-method-output">select the  Product </span>
+                <span class="reporter-method-output">Selecrt the size</span>
+                <span class="reporter-method-output">Select the quanity </span>
+                <span class="reporter-method-output">Select the color </span>
+                <span class="reporter-method-output">Click on addtocart button</span>
+                <span class="reporter-method-output">FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</span>
+                <span class="reporter-method-output">Unknown error cannot upload screenshot to server : Connection timed out: connect</span>
+                <span class="reporter-method-output">Unknown error cannot upload screenshot to server : Connection timed out: connect</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Falcon-Sample-WIN_10_CHROME_77" class="panel">
@@ -229,15 +259,19 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Lunchsite(WIN, 10, CHROME, 77)</span>
-                <span class="method-start">846 ms</span>
+                <span class="method-start">1185 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LogintoGmail(venkatklu1993@gmail.com, Venkat@6718)</span>
-                <span class="method-start">42049 ms</span>
+                <span class="method-start">62368 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">212672 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
