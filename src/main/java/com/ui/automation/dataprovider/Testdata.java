@@ -127,4 +127,26 @@ public Object[][] Registerdata1(String testDataFilePath,String testDataSheetName
 			
 	return data;
 }
+    
+    
+  //Reading the test data from excel    
+    public Object[][] logindata(String testDataFilePath,String testDataSheetName){
+    	
+    	try {
+    		xlsReader.setPath(testDataFilePath);
+    	} catch (IOException ioException) {
+    		report.error("IOExeption occured as " + ioException.getMessage());
+    	}
+    	int rowCount = xlsReader.getRowCount(testDataSheetName);
+    	int colcount=xlsReader.getColumnCount(testDataSheetName);
+    		Object[][] data=new Object[rowCount][xlsReader.getColumnCount(testDataSheetName)];
+	
+    		for(int i=0;i<rowCount;i++) {
+    			for(int j=0;j<colcount;j++) {
+    				data[i][j]=	xlsReader.getCellDataByColumnIndex(testDataSheetName, j, (i+1));	
+		}
+	}
+			
+	return data;
+}
 }

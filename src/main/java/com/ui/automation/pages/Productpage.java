@@ -66,6 +66,10 @@ public class Productpage {
 		report.info("Click on ProceedtoCheckout");
 		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Women_procced_check_out"))).click();
 	}
+	public void clickonSummarycheckout() {
+		report.info("Summary check out ");
+		browser.getDriver().findElement(By.xpath(womenpage.getProperty("Women_summary_Check_out"))).click();	
+		}
 	
 	
 		
@@ -75,4 +79,5 @@ public class Productpage {
 }
 	
 	
+
 

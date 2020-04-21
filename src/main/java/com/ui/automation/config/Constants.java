@@ -28,9 +28,11 @@ public class Constants {
 	public static final String WOMENPAGE=TEST_DATA_HOME_PAGE_OBJECTS+"Womenpage.properties";
 	public static final String SHOPPINGCART=TEST_DATA_HOME_PAGE_OBJECTS+"ShoppingCart.properties";
 	public static final String REGISTRATION=TEST_DATA_HOME_PAGE_OBJECTS+"RegistrationPage.properties";
+	public static final String CLEARANCE=TEST_DATA_HOME_PAGE_OBJECTS+"Clearance.properties";
 	
 	
 	public static final String DASHBOARD_TEST_DATA_HOME =TEST_DATA_HOME + "selenium.xlsx";
+	public static final String ECCOMMERS_TEST_DATA_HOME =TEST_DATA_HOME + "testdata.xlsx";
 	public static final String DASHBOARD_TEST_DATA_SHEET ="Credentials";
 	public static final String PRODUCT_TEST_DATA_SHEET ="Productdetails";
 	public static final String REGISTRATION_TEST_DATA="NewRegistration";

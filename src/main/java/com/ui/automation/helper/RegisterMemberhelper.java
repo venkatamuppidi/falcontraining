@@ -6,7 +6,7 @@ import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon.automation.util.parser.XlsReader;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
-import com.ui.automation.testscript.TestRegisterMember;
+
 import com.ui.automation.testsuite.TestSuiteBase;
 
 public class RegisterMemberhelper extends TestSuiteBase{

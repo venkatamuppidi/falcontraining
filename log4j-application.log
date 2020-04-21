@@ -4742,3 +4742,1917 @@
 2020-03-30 11:46:42 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
 2020-03-30 11:47:03 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
 2020-03-30 11:47:06 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 12:05:37 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 11:54:24 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 11:54:25 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 11:54:25 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 11:58:43 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 11:58:44 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 11:58:44 INFO  HomePage:49 - click on sign button 
+2020-04-20 11:59:00 INFO  Loginpage:49 - enter the emailid
+2020-04-20 11:59:02 INFO  Loginpage:49 - enter the password
+2020-04-20 11:59:05 INFO  Loginpage:49 - Click on SignButton
+2020-04-20 11:59:11 INFO  VerificationManager:44 - PASS : Member not login sucessfully Actual value : true is same as Expected value: true
+2020-04-20 11:59:11 INFO  TestRegisterMember:49 - click on Tops 
+2020-04-20 11:59:11 INFO  HomePage:49 - Selecting the Women
+2020-04-20 11:59:35 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 11:59:49 INFO  Productpage:49 - select the  Product 
+2020-04-20 12:00:05 INFO  Productpage:49 - Selecrt the size
+2020-04-20 12:00:05 INFO  Productpage:49 - Select the quanity 
+2020-04-20 12:00:06 INFO  Productpage:49 - Select the color 
+2020-04-20 12:00:06 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 12:00:07 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 12:00:28 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 12:00:30 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 12:02:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 12:02:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 12:02:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 12:02:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 12:02:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 12:02:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 12:02:38 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 12:02:38 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 12:02:38 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 12:06:38 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 12:06:39 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 12:06:39 INFO  HomePage:49 - click on sign button 
+2020-04-20 12:06:50 INFO  Loginpage:49 - enter the emailid
+2020-04-20 12:06:55 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 12:07:27 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 12:07:29 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 12:19:20 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 12:19:21 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 12:19:21 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 12:21:19 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 12:21:20 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 12:21:20 INFO  HomePage:49 - click on sign button 
+2020-04-20 12:21:25 INFO  Loginpage:49 - enter the emailid
+2020-04-20 12:21:28 INFO  Loginpage:49 - enter the password
+2020-04-20 12:21:30 INFO  Loginpage:49 - Click on SignButton
+2020-04-20 12:21:36 INFO  VerificationManager:44 - PASS : Member not login sucessfully Actual value : true is same as Expected value: true
+2020-04-20 12:21:36 INFO  TestRegisterMember:49 - click on Tops 
+2020-04-20 12:21:36 INFO  HomePage:49 - Selecting the Women
+2020-04-20 12:21:59 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 12:22:13 INFO  Productpage:49 - select the  Product 
+2020-04-20 12:22:33 INFO  Productpage:49 - Selecrt the size
+2020-04-20 12:22:33 INFO  Productpage:49 - Select the quanity 
+2020-04-20 12:22:34 INFO  Productpage:49 - Select the color 
+2020-04-20 12:22:34 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 12:22:35 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 12:22:56 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 12:22:58 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 12:25:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 12:25:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 12:25:39 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 12:25:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 12:25:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 12:25:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 12:25:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 12:25:40 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 12:25:40 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 12:29:01 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 12:29:03 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 12:29:03 INFO  HomePage:49 - click on sign button 
+2020-04-20 12:29:22 INFO  Loginpage:49 - enter the emailid
+2020-04-20 12:29:24 INFO  Loginpage:49 - enter the password
+2020-04-20 12:29:26 INFO  Loginpage:49 - Click on SignButton
+2020-04-20 12:29:45 INFO  VerificationManager:44 - PASS : Member not login sucessfully Actual value : true is same as Expected value: true
+2020-04-20 12:29:45 INFO  TestRegisterMember:49 - click on Tops 
+2020-04-20 12:29:45 INFO  HomePage:49 - Selecting the Women
+2020-04-20 12:30:23 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 12:30:35 INFO  Productpage:49 - select the  Product 
+2020-04-20 12:30:49 INFO  Productpage:49 - Selecrt the size
+2020-04-20 12:30:50 INFO  Productpage:49 - Select the quanity 
+2020-04-20 12:30:50 INFO  Productpage:49 - Select the color 
+2020-04-20 12:30:50 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 12:30:53 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 12:31:14 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 12:31:16 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 12:40:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 12:40:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 12:40:03 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 12:40:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 12:40:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 12:40:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 12:40:04 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 12:40:06 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 12:40:06 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 12:41:27 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 12:41:28 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 12:41:28 INFO  HomePage:49 - click on sign button 
+2020-04-20 12:41:52 INFO  Loginpage:49 - enter the emailid
+2020-04-20 12:41:54 INFO  Loginpage:49 - enter the password
+2020-04-20 12:41:56 INFO  Loginpage:49 - Click on SignButton
+2020-04-20 12:42:03 INFO  VerificationManager:44 - PASS : Member not login sucessfully Actual value : true is same as Expected value: true
+2020-04-20 12:42:03 INFO  TestRegisterMember:49 - click on Tops 
+2020-04-20 12:42:03 INFO  HomePage:49 - Selecting the Women
+2020-04-20 12:42:30 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 12:42:53 INFO  Productpage:49 - select the  Product 
+2020-04-20 12:43:20 INFO  Productpage:49 - Selecrt the size
+2020-04-20 12:43:20 INFO  Productpage:49 - Select the quanity 
+2020-04-20 12:43:20 INFO  Productpage:49 - Select the color 
+2020-04-20 12:43:21 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 12:43:23 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 12:43:23 INFO  HomePage:49 - Selecting the Women
+2020-04-20 12:43:30 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 12:43:37 INFO  Productpage:49 - select the  Product 
+2020-04-20 12:43:56 INFO  Productpage:49 - Selecrt the size
+2020-04-20 12:43:56 INFO  Productpage:49 - Select the quanity 
+2020-04-20 12:43:56 INFO  Productpage:49 - Select the color 
+2020-04-20 12:43:56 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 12:43:59 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 12:43:59 INFO  Productpage:49 - Click on ProceedtoCheckout
+2020-04-20 12:44:08 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 12:44:09 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 12:44:30 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 12:44:31 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 13:35:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 13:35:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 13:35:21 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 13:35:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 13:35:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 13:35:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 13:35:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 13:35:24 INFO  TestRegisterMember:49 - launching the portal homepage
+2020-04-20 13:35:24 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 13:39:21 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 13:39:22 INFO  TestRegisterMember:49 - Log into website 
+2020-04-20 13:39:22 INFO  HomePage:49 - click on sign button 
+2020-04-20 13:39:41 INFO  Loginpage:49 - enter the emailid
+2020-04-20 13:39:52 INFO  Loginpage:49 - enter the password
+2020-04-20 13:39:54 INFO  Loginpage:49 - Click on SignButton
+2020-04-20 13:40:23 INFO  VerificationManager:44 - PASS : Member not login sucessfully Actual value : true is same as Expected value: true
+2020-04-20 13:40:23 INFO  TestRegisterMember:49 - click on Tops 
+2020-04-20 13:40:23 INFO  HomePage:49 - Selecting the Women
+2020-04-20 13:41:35 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 13:43:05 INFO  Productpage:49 - select the  Product 
+2020-04-20 13:43:34 INFO  Productpage:49 - Selecrt the size
+2020-04-20 13:43:34 INFO  Productpage:49 - Select the quanity 
+2020-04-20 13:43:34 INFO  Productpage:49 - Select the color 
+2020-04-20 13:43:35 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 13:43:37 INFO  VerificationManager:229 - PASS : Product not Added sucessfully Actual value : Product successfully added to your shopping cart is same as Expected value: Product successfully added to your shopping cart
+2020-04-20 13:43:37 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 13:43:37 INFO  HomePage:49 - Selecting the Women
+2020-04-20 13:50:03 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 13:50:29 INFO  Productpage:49 - select the  Product 
+2020-04-20 13:50:39 INFO  Productpage:49 - Selecrt the size
+2020-04-20 13:50:39 INFO  Productpage:49 - Select the quanity 
+2020-04-20 13:50:40 INFO  Productpage:49 - Select the color 
+2020-04-20 13:50:40 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 13:50:42 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 13:50:42 INFO  Productpage:49 - Click on ProceedtoCheckout
+2020-04-20 13:51:05 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 13:51:06 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 13:51:27 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 13:51:31 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 15:29:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 15:29:54 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 15:29:54 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 15:31:33 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 15:31:34 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 15:31:35 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 15:31:56 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 15:31:58 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 15:32:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 15:32:54 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 15:32:54 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 15:37:52 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 15:37:53 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 15:37:54 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 15:38:15 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 15:38:18 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 15:50:19 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 15:50:20 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 15:50:20 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 15:52:15 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 15:52:17 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 15:52:17 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 15:52:38 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 15:52:40 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 15:59:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 15:59:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 15:59:39 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 15:59:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 15:59:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 15:59:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 15:59:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 15:59:40 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 15:59:40 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 16:01:25 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 16:01:26 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 16:01:27 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 16:01:48 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 16:01:50 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 16:12:20 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 16:12:21 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 16:12:21 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 16:13:51 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 16:13:52 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 16:13:52 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 16:13:52 INFO  HomePage:49 - Selecting the Women
+2020-04-20 16:14:18 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 16:14:43 INFO  Productpage:49 - select the  Product 
+2020-04-20 16:15:24 INFO  Productpage:49 - Selecrt the size
+2020-04-20 16:15:25 INFO  Productpage:49 - Select the quanity 
+2020-04-20 16:15:25 INFO  Productpage:49 - Select the color 
+2020-04-20 16:15:25 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 16:15:25 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 16:15:25 INFO  HomePage:49 - Selecting the Women
+2020-04-20 16:15:42 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 16:17:44 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 17:31:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 17:31:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 17:31:03 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 17:31:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 17:31:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 17:31:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 17:31:04 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 17:31:05 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 17:31:05 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 17:31:43 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 17:31:45 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 17:31:45 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 17:31:45 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:31:52 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:32:01 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:32:10 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:32:10 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:32:10 INFO  Productpage:49 - Select the color 
+2020-04-20 17:32:10 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:32:11 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:32:11 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:32:17 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:32:21 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:32:26 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:32:26 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:32:26 INFO  Productpage:49 - Select the color 
+2020-04-20 17:32:26 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:32:27 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:32:27 INFO  Productpage:49 - Summary check out 
+2020-04-20 17:34:05 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 17:36:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 17:36:02 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 17:36:02 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 17:36:33 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 17:36:34 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 17:36:34 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 17:36:34 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:36:46 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:36:52 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:36:58 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:36:58 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:36:59 INFO  Productpage:49 - Select the color 
+2020-04-20 17:36:59 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:36:59 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:36:59 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 17:37:09 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:37:15 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:37:17 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:37:25 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:37:26 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:37:26 INFO  Productpage:49 - Select the color 
+2020-04-20 17:37:26 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:37:26 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:37:26 INFO  Productpage:49 - Summary check out 
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 17:45:49 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 17:45:50 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 17:45:50 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 17:46:37 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 17:46:38 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 17:46:38 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 17:46:38 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:46:44 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:46:57 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:47:00 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:47:09 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:47:09 INFO  Productpage:49 - Select the color 
+2020-04-20 17:47:11 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:47:12 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:47:12 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 17:47:15 INFO  HomePage:49 - Selecting the Women
+2020-04-20 17:47:19 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 17:47:24 INFO  Productpage:49 - select the  Product 
+2020-04-20 17:47:28 INFO  Productpage:49 - Selecrt the size
+2020-04-20 17:47:29 INFO  Productpage:49 - Select the quanity 
+2020-04-20 17:47:29 INFO  Productpage:49 - Select the color 
+2020-04-20 17:47:30 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 17:47:30 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 17:47:30 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 17:47:31 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 17:47:52 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 17:47:54 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 18:08:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 18:08:36 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 18:08:36 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 18:09:04 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 18:09:26 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 18:09:27 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 18:09:27 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 18:09:27 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:09:37 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:09:43 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:09:53 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:09:54 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:09:55 INFO  Productpage:49 - Select the color 
+2020-04-20 18:09:55 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:09:55 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:09:55 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 18:09:57 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:10:05 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:10:08 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:10:14 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:10:15 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:10:15 INFO  Productpage:49 - Select the color 
+2020-04-20 18:10:16 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:10:16 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:10:16 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 18:10:23 INFO  Productpage:49 - Summary check out 
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 18:13:10 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 18:13:11 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 18:13:11 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 18:13:51 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 18:13:52 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 18:13:52 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 18:13:52 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:13:56 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:14:01 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:14:04 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:14:08 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:14:08 INFO  Productpage:49 - Select the color 
+2020-04-20 18:14:09 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:14:09 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:14:09 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 18:14:11 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:14:14 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:14:18 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:14:23 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:14:23 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:14:23 INFO  Productpage:49 - Select the color 
+2020-04-20 18:14:24 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:14:24 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:14:24 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 18:14:36 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 18:14:57 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 18:14:59 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 18:17:44 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 18:17:45 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 18:17:45 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 18:18:20 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 18:18:21 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 18:18:21 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 18:18:21 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:18:25 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:18:32 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:18:39 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:18:43 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:18:44 INFO  Productpage:49 - Select the color 
+2020-04-20 18:18:47 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:18:47 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:18:47 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 18:18:50 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:18:55 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:19:00 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:19:06 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:19:06 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:19:06 INFO  Productpage:49 - Select the color 
+2020-04-20 18:19:07 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:19:08 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:19:08 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 18:19:17 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 18:19:38 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 18:19:40 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 18:38:00 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 18:38:01 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 18:38:01 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 18:38:27 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 18:38:28 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 18:38:28 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 18:38:29 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:38:33 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:38:41 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:38:48 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:38:52 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:38:52 INFO  Productpage:49 - Select the color 
+2020-04-20 18:38:55 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:38:56 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:38:56 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 18:38:58 INFO  HomePage:49 - Selecting the Women
+2020-04-20 18:39:02 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 18:39:05 INFO  Productpage:49 - select the  Product 
+2020-04-20 18:39:09 INFO  Productpage:49 - Selecrt the size
+2020-04-20 18:39:09 INFO  Productpage:49 - Select the quanity 
+2020-04-20 18:39:09 INFO  Productpage:49 - Select the color 
+2020-04-20 18:39:10 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 18:39:10 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 18:39:10 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 18:39:16 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 18:39:16 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 18:39:16 INFO  Productpage:49 - Summary check out 
+2020-04-20 18:57:36 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 20:10:29 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 20:10:39 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 20:15:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 20:15:23 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 20:15:23 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 20:15:46 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 20:15:48 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 20:15:48 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 20:15:48 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:15:51 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:16:00 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:16:05 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:16:05 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:16:05 INFO  Productpage:49 - Select the color 
+2020-04-20 20:16:07 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:16:08 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:16:08 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 20:16:10 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:16:14 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:16:18 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:16:24 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:16:24 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:16:24 INFO  Productpage:49 - Select the color 
+2020-04-20 20:16:24 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:16:25 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:16:25 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 20:16:30 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 20:16:31 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 20:16:31 INFO  Productpage:49 - Summary check out 
+2020-04-20 20:21:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 20:21:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 20:21:56 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 20:21:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 20:21:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 20:21:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 20:21:57 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 20:21:58 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 20:21:58 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 20:22:21 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 20:22:23 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 20:22:23 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 20:22:23 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:22:27 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:22:35 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:22:40 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:22:40 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:22:40 INFO  Productpage:49 - Select the color 
+2020-04-20 20:22:43 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:22:44 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:22:44 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 20:22:47 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:22:56 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:23:00 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:23:04 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:23:04 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:23:04 INFO  Productpage:49 - Select the color 
+2020-04-20 20:23:05 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:23:05 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:23:05 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 20:23:14 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 20:23:14 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 20:23:14 INFO  Productpage:49 - Summary check out 
+2020-04-20 20:25:55 INFO  Loginpage:49 - Enter the New Mail Address to create an account
+2020-04-20 20:26:56 INFO  Loginpage:49 - Click on Create an Account
+2020-04-20 20:26:58 ERROR VerificationManager:336 - FAIL : expected [true] but found [false]
+2020-04-20 20:26:59 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 20:27:20 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 20:27:22 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 20:29:46 INFO  Loginpage:49 - Enter the New Mail Address to create an account
+2020-04-20 20:29:55 INFO  Loginpage:49 - Click on Create an Account
+2020-04-20 20:29:56 ERROR VerificationManager:336 - FAIL : expected [true] but found [false]
+2020-04-20 20:29:57 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 20:41:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 20:41:41 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 20:41:41 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 20:42:02 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 20:42:04 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 20:42:04 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 20:42:04 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:42:07 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:42:18 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:42:23 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:42:23 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:42:24 INFO  Productpage:49 - Select the color 
+2020-04-20 20:42:24 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:42:24 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:42:24 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 20:42:26 INFO  HomePage:49 - Selecting the Women
+2020-04-20 20:42:30 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 20:42:33 INFO  Productpage:49 - select the  Product 
+2020-04-20 20:42:37 INFO  Productpage:49 - Selecrt the size
+2020-04-20 20:42:37 INFO  Productpage:49 - Select the quanity 
+2020-04-20 20:42:37 INFO  Productpage:49 - Select the color 
+2020-04-20 20:42:38 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 20:42:38 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 20:42:38 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 20:42:43 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 20:42:43 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 20:42:43 INFO  Productpage:49 - Summary check out 
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 21:04:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 21:04:17 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 21:04:17 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 21:04:42 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 21:04:43 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 21:04:43 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 21:04:44 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:04:47 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:04:54 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:04:56 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:04:58 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:04:58 INFO  Productpage:49 - Select the color 
+2020-04-20 21:05:00 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:05:00 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:05:00 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 21:05:03 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:05:08 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:05:13 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:05:18 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:05:18 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:05:18 INFO  Productpage:49 - Select the color 
+2020-04-20 21:05:19 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:05:19 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:05:19 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 21:05:24 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 21:05:24 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 21:05:24 INFO  Productpage:49 - Summary check out 
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 21:09:35 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 21:09:36 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 21:09:36 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 21:09:59 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 21:10:00 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 21:10:00 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 21:10:00 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:10:07 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:10:12 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:10:20 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:10:20 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:10:21 INFO  Productpage:49 - Select the color 
+2020-04-20 21:10:22 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:10:22 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:10:22 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 21:10:24 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:10:31 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:10:35 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:10:39 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:10:39 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:10:39 INFO  Productpage:49 - Select the color 
+2020-04-20 21:10:40 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:10:41 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:10:41 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 21:10:46 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 21:10:46 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 21:10:46 INFO  Productpage:49 - Summary check out 
+2020-04-20 21:10:49 INFO  Loginpage:49 - Enter the New Mail Address to create an account
+2020-04-20 21:10:50 INFO  Loginpage:49 - Click on Create an Account
+2020-04-20 21:10:51 ERROR VerificationManager:336 - FAIL : expected [true] but found [false]
+2020-04-20 21:10:52 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 21:11:13 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 21:11:14 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 21:13:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-20 21:13:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-20 21:13:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-20 21:13:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-20 21:13:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-20 21:13:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-20 21:13:25 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestNonRegisterMember"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-20 21:13:26 INFO  TestNonRegisterMember:49 - launching the gmail homepage
+2020-04-20 21:13:26 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-20 21:13:51 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-20 21:13:52 INFO  TestNonRegisterMember:49 - Register a member 
+2020-04-20 21:13:52 INFO  TestNonRegisterMember:49 - click on Tops 
+2020-04-20 21:13:52 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:13:59 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:14:04 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:14:09 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:14:10 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:14:10 INFO  Productpage:49 - Select the color 
+2020-04-20 21:14:12 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:14:12 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:14:12 INFO  Productpage:49 - Click on ContinueShopping
+2020-04-20 21:14:14 INFO  HomePage:49 - Selecting the Women
+2020-04-20 21:14:25 INFO  Womenpage:49 - click on Subcategories on Tops 
+2020-04-20 21:14:28 INFO  Productpage:49 - select the  Product 
+2020-04-20 21:14:32 INFO  Productpage:49 - Selecrt the size
+2020-04-20 21:14:32 INFO  Productpage:49 - Select the quanity 
+2020-04-20 21:14:33 INFO  Productpage:49 - Select the color 
+2020-04-20 21:14:33 INFO  Productpage:49 - Click on addtocart button
+2020-04-20 21:14:34 ERROR VerificationManager:236 - FAIL : expected [Product successfully added to your shopping cart] but found [] Actual value :  is not same as Expected value: Product successfully added to your shopping cart
+2020-04-20 21:14:34 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 21:14:41 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Faded Short Sleeve T-shirts is same as Expected value: Faded Short Sleeve T-shirts
+2020-04-20 21:14:41 INFO  VerificationManager:229 - PASS : Product name not same Actual value : Blouse is same as Expected value: Blouse
+2020-04-20 21:14:41 INFO  Productpage:49 - Summary check out 
+2020-04-20 21:14:46 INFO  Loginpage:49 - Enter the New Mail Address to create an account
+2020-04-20 21:14:47 INFO  Loginpage:49 - Click on Create an Account
+2020-04-20 21:14:49 INFO  VerificationManager:331 - PASS : An account using this email address has already been registered. Please enter a valid password or request a new one.
+2020-04-20 21:14:49 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 21:16:12 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-20 21:16:33 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-20 21:16:34 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 21:16:38 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-20 21:26:04 INFO  ShoppingCartPage:49 - click on Proceed to checkout
+2020-04-20 21:26:16 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:07:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:07:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:07:42 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:07:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:07:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:07:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:07:43 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:07:45 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:07:45 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:12:12 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:12:12 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:12:12 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 14:12:51 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:15:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:15:23 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:15:23 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 14:17:19 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 14:17:21 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 14:17:21 INFO  HomePage:49 - click on login button 
+2020-04-21 14:18:48 INFO  Loginpage:49 - enter the emailid
+2020-04-21 14:18:50 INFO  Loginpage:49 - enter the password
+2020-04-21 14:18:53 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 14:19:05 INFO  HomePage:49 - Select the country name
+2020-04-21 14:19:05 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 14:19:26 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 14:19:28 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:24:54 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:24:54 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:24:54 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 14:25:28 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 14:25:29 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 14:25:29 INFO  HomePage:49 - click on login button 
+2020-04-21 14:25:35 INFO  Loginpage:49 - enter the emailid
+2020-04-21 14:25:37 INFO  Loginpage:49 - enter the password
+2020-04-21 14:25:40 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 14:25:54 INFO  HomePage:49 - Select the country name
+2020-04-21 14:25:55 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 14:26:16 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 14:26:17 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:32:18 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:32:19 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:32:19 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 14:33:13 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 14:33:14 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 14:33:14 INFO  HomePage:49 - click on login button 
+2020-04-21 14:33:25 INFO  Loginpage:49 - enter the emailid
+2020-04-21 14:33:28 INFO  Loginpage:49 - enter the password
+2020-04-21 14:33:30 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 14:33:42 INFO  HomePage:49 - Select the country name
+2020-04-21 14:33:43 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 14:34:04 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 14:34:06 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:37:25 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:37:25 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:37:25 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 14:38:10 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 14:38:11 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 14:38:11 INFO  HomePage:49 - click on login button 
+2020-04-21 14:38:16 INFO  Loginpage:49 - enter the emailid
+2020-04-21 14:38:19 INFO  Loginpage:49 - enter the password
+2020-04-21 14:38:21 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 14:39:05 INFO  HomePage:49 - Select the country name
+2020-04-21 14:39:40 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 14:40:37 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:38 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:38 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:40 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:40 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:40 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:40 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:42 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:42 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:42 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:42 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:45 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:45 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:45 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:45 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:47 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:47 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:47 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:47 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:49 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:49 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 14:40:49 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 14:40:49 INFO  HomePage:49 - Search for the product
+2020-04-21 14:40:52 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 14:40:53 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 14:56:49 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 14:56:50 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 14:56:50 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:02:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:02:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:02:04 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:02:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:02:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:02:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:02:05 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:02:05 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:02:05 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:03:00 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:03:01 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 15:03:01 INFO  HomePage:49 - click on login button 
+2020-04-21 15:03:20 INFO  Loginpage:49 - enter the emailid
+2020-04-21 15:03:23 INFO  Loginpage:49 - enter the password
+2020-04-21 15:03:25 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 15:03:43 INFO  HomePage:49 - Select the country name
+2020-04-21 15:03:49 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:04:00 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:04:00 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:04:00 INFO  HomePage:49 - Search for the product
+2020-04-21 15:04:21 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:04:21 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:04:21 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:13:10 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:13:10 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:14:03 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:14:07 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:14:13 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:14:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:14:50 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:14:50 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:16:04 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:16:05 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 15:16:05 INFO  HomePage:49 - click on login button 
+2020-04-21 15:16:19 INFO  Loginpage:49 - enter the emailid
+2020-04-21 15:16:22 INFO  Loginpage:49 - enter the password
+2020-04-21 15:16:24 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 15:16:44 INFO  HomePage:49 - Select the country name
+2020-04-21 15:16:51 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:17:00 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:17:11 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:17:11 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:17:11 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:17:30 INFO  HomePage:49 - Search for the product
+2020-04-21 15:17:57 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:17:57 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:18:01 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:18:01 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:18:02 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:18:05 INFO  HomePage:49 - Search for the product
+2020-04-21 15:18:11 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:18:11 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:18:19 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:18:19 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:18:19 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:18:34 INFO  HomePage:49 - Search for the product
+2020-04-21 15:19:00 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:19:00 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:19:08 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:19:08 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:19:08 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:19:22 INFO  HomePage:49 - Search for the product
+2020-04-21 15:19:30 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:19:30 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:19:45 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:19:45 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:19:45 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:20:06 INFO  HomePage:49 - Search for the product
+2020-04-21 15:20:25 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:20:25 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:20:38 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:20:38 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 15:20:38 INFO  HomePage:49 - click on Home button 
+2020-04-21 15:20:55 INFO  HomePage:49 - Search for the product
+2020-04-21 15:20:58 INFO  VerificationManager:229 - PASS : Price was different Actual value : £6.59 is same as Expected value: £6.59
+2020-04-21 15:21:00 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:46:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:46:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:46:20 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:46:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:46:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:46:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:46:21 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:46:21 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:46:21 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:47:11 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:47:12 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:47:20 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:47:22 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:48:29 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:48:30 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:48:30 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:49:44 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:49:45 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:49:54 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:49:56 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:55:15 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:55:16 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:55:16 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 15:56:02 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 15:56:03 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 15:56:03 INFO  HomePage:49 - click on login button 
+2020-04-21 15:56:24 INFO  Loginpage:49 - enter the emailid
+2020-04-21 15:56:27 INFO  Loginpage:49 - enter the password
+2020-04-21 15:56:30 INFO  Loginpage:49 - Click on LoginButton
+2020-04-21 15:56:56 INFO  HomePage:49 - Select the country name
+2020-04-21 15:57:03 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:57:23 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 15:57:23 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 15:57:32 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 15:57:53 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 15:57:55 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 15:59:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 15:59:55 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 15:59:55 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:02:16 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:02:17 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:02:17 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:02:33 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:02:33 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:02:48 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 16:03:09 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:12:33 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:12:34 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:12:34 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:15:41 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:16:08 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:16:09 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:16:09 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:17:41 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:17:42 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:17:42 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:19:22 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:19:24 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:20:00 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:20:01 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:20:01 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:20:22 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:21:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:21:02 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:21:02 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:23:38 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:23:40 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:23:40 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:24:31 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:24:31 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:25:00 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 16:25:00 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 16:25:21 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 16:25:23 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:30:41 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:30:42 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:30:42 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:31:55 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:31:56 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:31:56 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:32:19 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:32:19 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:32:25 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 16:32:26 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 16:32:47 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 16:32:48 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:37:07 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:37:07 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:37:07 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:38:15 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:38:16 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:38:16 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:38:48 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:38:48 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:38:59 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 16:39:00 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 16:39:21 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 16:39:23 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:41:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:41:36 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:41:36 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:42:32 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 16:42:34 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 16:42:34 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:42:44 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 16:42:44 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 16:42:55 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 16:42:55 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-21 16:43:16 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-21 16:43:18 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:45:25 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:45:26 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:45:26 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 16:45:34 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 16:59:24 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 16:59:26 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 16:59:26 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 17:00:28 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 17:00:30 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 17:00:30 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:00:49 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:00:49 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:00:58 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:04:47 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 17:09:27 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 17:09:28 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 17:09:28 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 17:10:10 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 17:10:12 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 17:10:12 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:10:20 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:10:21 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:10:30 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:10:30 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:10:35 INFO  HomePage:49 - Search for the product
+2020-04-21 17:10:54 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:10:54 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:10:54 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:11:03 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:11:03 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:11:16 INFO  HomePage:49 - Search for the product
+2020-04-21 17:11:30 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:11:30 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:11:30 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:11:34 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:11:34 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:11:38 INFO  HomePage:49 - Search for the product
+2020-04-21 17:11:47 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:11:47 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:11:47 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:11:53 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:11:53 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:11:57 INFO  HomePage:49 - Search for the product
+2020-04-21 17:12:05 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:12:05 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:12:05 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:12:12 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:12:12 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:12:16 INFO  HomePage:49 - Search for the product
+2020-04-21 17:12:25 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:12:27 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-21 17:14:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-21 17:14:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-21 17:14:02 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77
+2020-04-21 17:14:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-21 17:14:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-21 17:14:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77
+2020-04-21 17:14:03 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+
+2020-04-21 17:14:04 INFO  TestSearchingforProduct:49 - launching the portal homepage
+2020-04-21 17:14:04 INFO  Ecommercshelper:49 - Opening browser: CHROME
+2020-04-21 17:14:54 INFO  Ecommercshelper:49 - Maximizing browser window
+2020-04-21 17:14:56 INFO  TestSearchingforProduct:49 - Log into website 
+2020-04-21 17:14:56 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:15:09 INFO  ClearancePage:49 - Store the list of the products 
+2020-04-21 17:15:09 INFO  HomePage:49 - click on Clearance button 
+2020-04-21 17:15:15 INFO  ClearancePage:49 - Storeproduct price
+2020-04-21 17:15:15 INFO  HomePage:49 - click on Home button 
+2020-04-21 17:15:30 INFO  HomePage:49 - Search for the product
+2020-04-21 17:15:47 INFO  VerificationManager:229 - PASS : Price was different Actual value : $3.99 is same as Expected value: $3.99
+2020-04-21 17:15:49 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false

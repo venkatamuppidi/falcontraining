@@ -6,9 +6,7 @@
 
 	<test name="SampleTest">
 		<classes>
-		 <class name="com.ui.automation.testscript.TestRegisterMember" /> 
-			<!-- <class name="com.ui.automation.testscript.TestRegisterMember" />  -->
-			 <class name="com.ui.automation.testscript.TestNonRegisterMember" />
+		 <class name="com.ui.automation.testscript.TestSearchingforProduct" />
 			
 		</classes>
 	</test>

@@ -29,6 +29,7 @@ public class Loginpage extends TestSuiteBase{
 	Testdata testData=new Testdata();
 	public   Properties Loginpage=testData.loadProperties(Constants.LOGINPAGE);
 	Browser browser;
+	CommonMethods commonmethods;
 
 	//Enter the MailID
 	public void enterUsername(String Username) {
@@ -40,28 +41,16 @@ public class Loginpage extends TestSuiteBase{
 		report.info("enter the password");
 		browser.getTextField().enterTextField(LocatorType.ID, Loginpage.getProperty("LoginPage_password"), pwrd);
 	}
-//Click on Signin after enter valid credentials 
-	public void clickonSignIn() {
-		report.info("Click on SignButton");
-		browser.getDriver().findElement(By.id(Loginpage.getProperty("LoginPage_Signin"))).click();
-	}
-
-// Click on CreateAccount button
-	public RegistrationPage clickonCreateanAccount() {
-		report.info("Click on Create an Account");
-		browser.getDriver().findElement(By.id(Loginpage.getProperty("LoginPage_Createan_Account"))).click();
-		return new RegistrationPage(browser);
-	}
-//Provide the Email id if user what to create new Registration 
-	public RegistrationPage EntertheNewMailAddress(String NewMailid) {
-		report.info("Enter the New Mail Address to create an account");
-		browser.getTextField().enterTextField(LocatorType.ID, Loginpage.getProperty("LoginPage_EnterMailid"), NewMailid);
-		return new RegistrationPage(browser);
+	//Click on Signin after enter valid credentials 
+	public void clickonLoginbutton() {
+		report.info("Click on LoginButton");
+		browser.getDriver().findElement(By.xpath(Loginpage.getProperty("LoginPage_Signin"))).click();
 	}
 
 	//Initialization the browser
 	public Loginpage(Browser browser) {
 		this.browser=browser;
+		commonmethods=new CommonMethods(browser);
 
 	}
 
