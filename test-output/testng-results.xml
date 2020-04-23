@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_CHROME_77 is: WIN_10_CHROME_77]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_CHROME_77]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_CHROME_77">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[launching the portal homepage]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: CHROME]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Log into website ]]>
+    </line>
+    <line>
+      <![CDATA[click on login button ]]>
+    </line>
+    <line>
+      <![CDATA[enter the emailid]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[Click on LoginButton]]>
+    </line>
+    <line>
+      <![CDATA[Select the country name]]>
+    </line>
+    <line>
+      <![CDATA[click on Clearance button ]]>
+    </line>
+    <line>
+      <![CDATA[Store the list of the products ]]>
+    </line>
+    <line>
+      <![CDATA[click on Clearance button ]]>
+    </line>
+    <line>
+      <![CDATA[Storeproduct price]]>
+    </line>
+    <line>
+      <![CDATA[click on Home button ]]>
+    </line>
+    <line>
+      <![CDATA[Search for the product]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Price was different : ACTUAL : £2.63 	EXPECTED :£2.63]]>
+    </line>
+    <line>
+      <![CDATA[click on logout]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_10_CHROME_77" duration-ms="118808" started-at="2020-04-22T11:42:16Z" finished-at="2020-04-22T11:44:14Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="118808" started-at="2020-04-22T11:42:16Z" finished-at="2020-04-22T11:44:14Z">
+      <class name="com.ui.automation.testscript.TestSearchingforProduct">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="preSetup" is-config="true" duration-ms="37" started-at="2020-04-22T17:12:16Z" finished-at="2020-04-22T17:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="Lunchsite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="Lunchsite" is-config="true" duration-ms="53463" started-at="2020-04-22T17:12:16Z" finished-at="2020-04-22T17:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launching the portal homepage]]>
+            </line>
+            <line>
+              <![CDATA[Opening browser: CHROME]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Lunchsite -->
+        <test-method status="PASS" signature="Logintowebsite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="Logintowebsite" duration-ms="64784" started-at="2020-04-22T17:13:10Z" data-provider="testdata" finished-at="2020-04-22T17:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venkatklu1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Venkat@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (UK)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Log into website ]]>
+            </line>
+            <line>
+              <![CDATA[click on login button ]]>
+            </line>
+            <line>
+              <![CDATA[enter the emailid]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[Click on LoginButton]]>
+            </line>
+            <line>
+              <![CDATA[Select the country name]]>
+            </line>
+            <line>
+              <![CDATA[click on Clearance button ]]>
+            </line>
+            <line>
+              <![CDATA[Store the list of the products ]]>
+            </line>
+            <line>
+              <![CDATA[click on Clearance button ]]>
+            </line>
+            <line>
+              <![CDATA[Storeproduct price]]>
+            </line>
+            <line>
+              <![CDATA[click on Home button ]]>
+            </line>
+            <line>
+              <![CDATA[Search for the product]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Price was different : ACTUAL : £2.63 	EXPECTED :£2.63]]>
+            </line>
+            <line>
+              <![CDATA[click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logintowebsite -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="teardown" is-config="true" duration-ms="1551" started-at="2020-04-22T17:14:14Z" finished-at="2020-04-22T17:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ui.automation.testscript.TestSearchingforProduct -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
+</testng-results>

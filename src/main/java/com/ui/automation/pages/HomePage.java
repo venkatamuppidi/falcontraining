@@ -45,7 +45,7 @@ public class HomePage {
 	//Click on country dropdown link 
 	public  void selectcountry(String countryname) {
 		report.info("Select the country name");
-		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_countryname"))).click();
+		browser.getDriver().findElement(By.cssSelector(Homepage.getProperty("Homepage_countryname"))).click();
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_country_dropdown")+countryname+Homepage.getProperty("Homepage_endpoint"))).click();	
 	}
 	// Click on Home button

@@ -100,7 +100,7 @@ public class TestSearchingforProduct extends TestSuiteBase {
 		homepage.Searchforproduct(productname);
 		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
 		VerificationManager.verifyString(pricename, browser.getDriver().findElement(By.xpath(Clearance.getProperty("Clearance_productname_price")+productname+Clearance.getProperty("Clearance_price_endpoint"))).getText(), "Price was different");
-		homepage.clickonlogin();
+		homepage.Logout();
 	}
 
 	
