@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Falcon-Sample-WIN_10_EDGE_40]">
+<suite name="Failed suite [Falcon-Sample-WIN_10_CHROME_77]">
   <parameter name="os" value="WIN"/>
   <parameter name="osVersion" value="10"/>
-  <parameter name="browser" value="EDGE"/>
-  <parameter name="browserVersion" value="40"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="browserVersion" value="77"/>
   <test name="SampleTest(failed)">
     <classes>
-      <class name="com.ui.automation.testscript.TestSearchingforProduct">
+      <class name="com.ui.automation.testscript.TestHotSauces">
         <methods>
-          <include name="Lunchsite"/>
+          <include name="placeNewlyArrived" invocation-numbers="0"/>
           <include name="preSetup"/>
           <include name="teardown"/>
-          <include name="Logintowebsite" invocation-numbers="0"/>
+          <include name="Lunchsite"/>
         </methods>
-      </class> <!-- com.ui.automation.testscript.TestSearchingforProduct -->
+      </class> <!-- com.ui.automation.testscript.TestHotSauces -->
     </classes>
   </test> <!-- SampleTest(failed) -->
-</suite> <!-- Failed suite [Falcon-Sample-WIN_10_EDGE_40] -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_CHROME_77] -->

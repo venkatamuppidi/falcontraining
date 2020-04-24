@@ -55,14 +55,21 @@ public class HomePage {
 
 
 	}
-	// Click on Home button
+	// Click on Clearance link
 	public ClearancePage clickClearancelink() {
 		report.info("click on Clearance button ");
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("HomePage_Clearance"))).click();
 		return new ClearancePage(browser);
-
-
 	}
+	
+	  public HotsaucesPage clickHotsauceslink() {
+	  report.info("click on Clearance button ");
+	  browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_HotSauces"))).click(); 
+	  return new HotsaucesPage(browser); 
+	  }
+	 
+	
+	//Search for the product in search box
 	public void Searchforproduct(String productname) {
 		report.info("Search for the product");
 		browser.getTextField().enterTextField(LocatorType.NAME, "q", productname);

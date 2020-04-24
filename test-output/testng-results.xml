@@ -31,7 +31,7 @@
   <parameter name="browserVersion" value="77"/>
   <test name="SampleTest">
     <classes>
-      <class name="com.ui.automation.testscript.TestSearchingforProduct"/>
+      <class name="com.ui.automation.testscript.TestHotSauces"/>
     </classes>
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
@@ -53,7 +53,13 @@
       <![CDATA[click on login button ]]>
     </line>
     <line>
+      <![CDATA[enter the username]]>
+    </line>
+    <line>
       <![CDATA[enter the emailid]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
     </line>
     <line>
       <![CDATA[enter the password]]>
@@ -68,37 +74,40 @@
       <![CDATA[click on Clearance button ]]>
     </line>
     <line>
-      <![CDATA[Store the list of the products ]]>
+      <![CDATA[select the manufuture name]]>
     </line>
     <line>
-      <![CDATA[click on Clearance button ]]>
+      <![CDATA[Click on New Arrival products]]>
     </line>
     <line>
-      <![CDATA[Storeproduct price]]>
+      <![CDATA[PASS : Product name same : ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Death Sauce]]>
     </line>
     <line>
-      <![CDATA[click on Home button ]]>
+      <![CDATA[Product out of stock]]>
     </line>
     <line>
-      <![CDATA[Search for the product]]>
+      <![CDATA[select the manufuture name]]>
     </line>
     <line>
-      <![CDATA[PASS : Price was different : ACTUAL : £2.63 	EXPECTED :£2.63]]>
+      <![CDATA[Click on New Arrival products]]>
     </line>
     <line>
-      <![CDATA[click on logout]]>
+      <![CDATA[PASS : Product name same : ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Death Sauce]]>
+    </line>
+    <line>
+      <![CDATA[Product out of stock]]>
     </line>
   </reporter-output>
-  <suite name="Falcon-Sample-WIN_10_CHROME_77" duration-ms="118808" started-at="2020-04-22T11:42:16Z" finished-at="2020-04-22T11:44:14Z">
+  <suite name="Falcon-Sample-WIN_10_CHROME_77" duration-ms="107367" started-at="2020-04-23T17:03:27Z" finished-at="2020-04-23T17:05:14Z">
     <groups>
     </groups>
-    <test name="SampleTest" duration-ms="118808" started-at="2020-04-22T11:42:16Z" finished-at="2020-04-22T11:44:14Z">
-      <class name="com.ui.automation.testscript.TestSearchingforProduct">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="preSetup" is-config="true" duration-ms="37" started-at="2020-04-22T17:12:16Z" finished-at="2020-04-22T17:12:16Z">
+    <test name="SampleTest" duration-ms="107367" started-at="2020-04-23T17:03:27Z" finished-at="2020-04-23T17:05:14Z">
+      <class name="com.ui.automation.testscript.TestHotSauces">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.ui.automation.testscript.TestHotSauces@1265a2eb]" name="preSetup" is-config="true" duration-ms="37" started-at="2020-04-23T22:33:27Z" finished-at="2020-04-23T22:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="Lunchsite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="Lunchsite" is-config="true" duration-ms="53463" started-at="2020-04-22T17:12:16Z" finished-at="2020-04-22T17:13:10Z">
+        <test-method status="PASS" signature="Lunchsite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestHotSauces@1265a2eb]" name="Lunchsite" is-config="true" duration-ms="70611" started-at="2020-04-23T22:33:28Z" finished-at="2020-04-23T22:34:38Z">
           <params>
             <param index="0">
               <value>
@@ -133,7 +142,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Lunchsite -->
-        <test-method status="PASS" signature="Logintowebsite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="Logintowebsite" duration-ms="64784" started-at="2020-04-22T17:13:10Z" data-provider="testdata" finished-at="2020-04-22T17:14:14Z">
+        <test-method status="PASS" signature="placeNewlyArrived(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.testscript.TestHotSauces@1265a2eb]" name="placeNewlyArrived" duration-ms="36161" started-at="2020-04-23T22:34:38Z" data-provider="testdata" finished-at="2020-04-23T22:35:14Z">
           <params>
             <param index="0">
               <value>
@@ -159,7 +168,13 @@
               <![CDATA[click on login button ]]>
             </line>
             <line>
+              <![CDATA[enter the username]]>
+            </line>
+            <line>
               <![CDATA[enter the emailid]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
             </line>
             <line>
               <![CDATA[enter the password]]>
@@ -174,33 +189,36 @@
               <![CDATA[click on Clearance button ]]>
             </line>
             <line>
-              <![CDATA[Store the list of the products ]]>
+              <![CDATA[select the manufuture name]]>
             </line>
             <line>
-              <![CDATA[click on Clearance button ]]>
+              <![CDATA[Click on New Arrival products]]>
             </line>
             <line>
-              <![CDATA[Storeproduct price]]>
+              <![CDATA[PASS : Product name same : ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Death Sauce]]>
             </line>
             <line>
-              <![CDATA[click on Home button ]]>
+              <![CDATA[Product out of stock]]>
             </line>
             <line>
-              <![CDATA[Search for the product]]>
+              <![CDATA[select the manufuture name]]>
             </line>
             <line>
-              <![CDATA[PASS : Price was different : ACTUAL : £2.63 	EXPECTED :£2.63]]>
+              <![CDATA[Click on New Arrival products]]>
             </line>
             <line>
-              <![CDATA[click on logout]]>
+              <![CDATA[PASS : Product name same : ACTUAL : Sudden Death Sauce 	EXPECTED :Sudden Death Sauce]]>
+            </line>
+            <line>
+              <![CDATA[Product out of stock]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Logintowebsite -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ui.automation.testscript.TestSearchingforProduct@3fe2fcb6]" name="teardown" is-config="true" duration-ms="1551" started-at="2020-04-22T17:14:14Z" finished-at="2020-04-22T17:14:16Z">
+        </test-method> <!-- placeNewlyArrived -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ui.automation.testscript.TestHotSauces@1265a2eb]" name="teardown" is-config="true" duration-ms="1317" started-at="2020-04-23T22:35:14Z" finished-at="2020-04-23T22:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ui.automation.testscript.TestSearchingforProduct -->
+      </class> <!-- com.ui.automation.testscript.TestHotSauces -->
     </test> <!-- SampleTest -->
   </suite> <!-- Falcon-Sample-WIN_10_CHROME_77 -->
 </testng-results>

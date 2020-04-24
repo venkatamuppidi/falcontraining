@@ -7,13 +7,14 @@
   <parameter name="browserVersion" value="77"/>
   <test name="SampleTest(failed)">
     <classes>
-      <class name="com.ui.automation.testscript.TestSearchingforProduct">
+      <class name="com.ui.automation.testscript.TestHotSauces">
         <methods>
-          <include name="Lunchsite"/>
+          <include name="placeNewlyArrived" invocation-numbers="0"/>
           <include name="preSetup"/>
-          <include name="Logintowebsite"/>
+          <include name="teardown"/>
+          <include name="Lunchsite"/>
         </methods>
-      </class> <!-- com.ui.automation.testscript.TestSearchingforProduct -->
+      </class> <!-- com.ui.automation.testscript.TestHotSauces -->
     </classes>
   </test> <!-- SampleTest(failed) -->
 </suite> <!-- Failed suite [Falcon-Sample-WIN_10_CHROME_77] -->

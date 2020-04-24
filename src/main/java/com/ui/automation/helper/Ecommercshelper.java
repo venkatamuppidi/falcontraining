@@ -44,8 +44,5 @@ public class Ecommercshelper {
 		browser.getDriver().manage().timeouts().pageLoadTimeout(Constants.MIN_WAIT_TIME, TimeUnit.SECONDS);
 	}
 	
-public static void main(String[] args) {
-	
-	System.out.println("url"+new Ecommercshelper(null).homepage.getProperty("URL"));
-}
+
 }

@@ -29,26 +29,15 @@ public class ShoppingCartPage {
 	public ShoppingCartPage(Browser browser) {
 		this.browser=browser;
 	}
-//Click on Proceed to check out
-	public void clickonProceedtocheckout() {
-		report.info("click on Proceed to checkout");		
-		browser.getDriver().findElement(By.xpath(Shoppingcart.getProperty("ProceedtoCheckout"))).click();
+//Click on Proceed to Add to cart
+	public void clickonAddtocart() {
+		report.info("click on Proceed to Add to cart");		
+		browser.getDriver().findElement(By.xpath(Shoppingcart.getProperty("AddtoCart"))).click();
 	}
-//Click on Agree Check box
-	public void clickonAgreecheckbox() {
-		report.info("click on Proceed to checkout");		
-		browser.getCheckBox().clickCheckBoxById(LocatorType.ID,Shoppingcart.getProperty("Agreecheckbox"),SelectType.CHECK);
-		
-	}
-	//click on Pay By Bank Wire
-	public void clickonPayBybankwire() {
-		report.info("click on PayBybankwire");		
-		browser.getDriver().findElement(By.xpath(Shoppingcart.getProperty("PayBybankwire"))).click();
-	}
-	//Click on Confirm Order
+	//Click on View to the cart
 	public void clickonConfirmOrder() {
-		report.info("click on ConfirmOrder");		
-		browser.getDriver().findElement(By.xpath(Shoppingcart.getProperty("IconfirmtoOrder"))).click();
+		report.info("click on View to the cart");		
+		browser.getDriver().findElement(By.xpath(Shoppingcart.getProperty("Select_view_in_Cart"))).click();
 	}
 
 }

@@ -3,6 +3,7 @@
  */
 package com.ui.automation.pages;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
@@ -26,28 +27,25 @@ public class ClearancePage {
 	private static final ReportLogService report=new ReportLogServiceImpl(ClearancePage.class); 
 	public   Properties Clearance=testData.loadProperties(Constants.CLEARANCE);
 
-
+	public ArrayList<String> product=new ArrayList<String>();
 	public ClearancePage(Browser browser) {
 		this.browser=browser;
 	}
 
 
 	//Store the list of the products  
-	public    String listofproduct() {
+	public   ArrayList<String>listofproduct() {
 		report.info("Store the list of the products ");
 		List<WebElement> elements = browser.getDriver().findElements(By.xpath(Clearance.getProperty("Clearance_productname")));
-		
 		  String productname=""; 
 		  for(WebElement ele:elements) {
-		  productname=ele.getText().substring(9);
-				  //replaceAll("[^a-zA-Z]", ""); 
-		 
-		  System.out.println("@###"+productname);
-		  return productname ;
+			  productname=ele.getText();
+			  product.add(productname);
 		  }
-		return productname ;
+		return product;
+		
 	}
-	
+	//getting the each product price
 	public String Productprice(String productnam) {
 		report.info("Storeproduct price");
 		String productprice=browser.getDriver().findElement(By.xpath(Clearance.getProperty("Clearance_productname_price")+productnam+Clearance.getProperty("Clearance_price_endpoint"))).getText();
