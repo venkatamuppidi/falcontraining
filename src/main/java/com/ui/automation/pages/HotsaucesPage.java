@@ -43,19 +43,19 @@ public class HotsaucesPage {
 	report.info("Click on New Arrival products"); 
 	Productname=browser.getDriver().findElement(By.xpath(HotSauces.getProperty("productname"))).getText();
 	browser.getDriver().findElement(By.xpath(HotSauces.getProperty("HotSauces_new_Arrival"))).click();
-	System.out.println("@$$"+Productname);
 	return Productname;
-	
 	}
-	
-	//Select the manufuture name 
-	public void clickonManufuturedropdown(String Manufuture) {
+	//Select the Manufacturer name 
+	public void selectManufuturename(String Manufuture) {
 		report.info("select the manufuture name");
-		browser.getDriver().findElement(By.xpath(HotSauces.getProperty("click_manufuture_dropdown"))).click();
-		browser.getDriver().findElement(By.xpath(HotSauces.getProperty("Manufuture_name")+Manufuture+HotSauces.getProperty("HotSauces_endpoint"))).click();
-	
+		if(true==browser.getDriver().findElement(By.xpath(HotSauces.getProperty("Manufuture_name")+Manufuture+HotSauces.getProperty("HotSauces_endpoint"))).isDisplayed()) {
+			browser.getDriver().findElement(By.xpath(HotSauces.getProperty("Manufuture_name")+Manufuture+HotSauces.getProperty("HotSauces_endpoint"))).click();
+		}
+		else {
+			browser.getDriver().findElement(By.xpath(HotSauces.getProperty("click_manufuture_dropdown"))).click();
+			browser.getDriver().findElement(By.xpath(HotSauces.getProperty("Manufuture_name")+Manufuture+HotSauces.getProperty("HotSauces_endpoint"))).click();	
+		}
 	}
-	
 }
 		
 

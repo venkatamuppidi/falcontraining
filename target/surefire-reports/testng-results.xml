@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.FalconUI.Maven.falcontraining.AppTest" duration-ms="3" started-at="2020-04-23T17:03:26Z" finished-at="2020-04-23T17:03:26Z">
+  <suite name="com.FalconUI.Maven.falcontraining.AppTest" duration-ms="3" started-at="2020-04-27T15:53:45Z" finished-at="2020-04-27T15:53:45Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3" started-at="2020-04-23T17:03:26Z" finished-at="2020-04-23T17:03:26Z">
+    <test name="Command line test" duration-ms="3" started-at="2020-04-27T15:53:45Z" finished-at="2020-04-27T15:53:45Z">
     </test> <!-- Command line test -->
   </suite> <!-- com.FalconUI.Maven.falcontraining.AppTest -->
 </testng-results>

@@ -4,7 +4,7 @@
 <suite name="CompanySetup">
 
 	<suite-files>
-		<suite-file path="./src/main/resources/suitefile/sample.xml" />
+		<suite-file path="./src/main/resources/suitefile/Eccomerce.xml" />
 	</suite-files>
 
 </suite>

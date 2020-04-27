@@ -9,12 +9,18 @@
     <classes>
       <class name="com.ui.automation.testscript.TestHotSauces">
         <methods>
-          <include name="placeNewlyArrived" invocation-numbers="0"/>
-          <include name="preSetup"/>
-          <include name="teardown"/>
+          <include name="placeNewlyArrived"/>
           <include name="Lunchsite"/>
         </methods>
       </class> <!-- com.ui.automation.testscript.TestHotSauces -->
+      <class name="com.ui.automation.testscript.TestSearchingforProduct">
+        <methods>
+          <include name="Searchfortheproduct"/>
+          <include name="Lunchsite"/>
+          <include name="preSetup"/>
+          <include name="Logintowebsite" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ui.automation.testscript.TestSearchingforProduct -->
     </classes>
   </test> <!-- SampleTest(failed) -->
 </suite> <!-- Failed suite [Falcon-Sample-WIN_10_CHROME_77] -->

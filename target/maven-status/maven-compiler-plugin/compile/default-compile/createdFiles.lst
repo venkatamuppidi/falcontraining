@@ -1,6 +1,5 @@
 com\ui\automation\pages\Loginpage.class
 com\ui\automation\testsuite\TestSuiteBase.class
-com\ui\automation\helper\CommonMethods.class
 com\ui\automation\runner\TestNGRunner.class
 com\ui\automation\config\Constants.class
 com\ui\automation\dataprovider\Testdata.class

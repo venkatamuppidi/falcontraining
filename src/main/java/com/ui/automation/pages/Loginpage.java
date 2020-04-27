@@ -17,7 +17,6 @@ import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
 import com.atmecs.falcon.automation.verifyresult.VerificationManager;
 import com.ui.automation.config.Constants;
 import com.ui.automation.dataprovider.Testdata;
-import com.ui.automation.helper.CommonMethods;
 import com.ui.automation.testsuite.TestSuiteBase;
 
 /**
@@ -29,7 +28,6 @@ public class Loginpage extends TestSuiteBase{
 	Testdata testData=new Testdata();
 	public   Properties Loginpage=testData.loadProperties(Constants.LOGINPAGE);
 	Browser browser;
-	CommonMethods commonmethods;
 
 	//Enter the MailID
 	public void enterUsername(String Username) {
@@ -50,8 +48,6 @@ public class Loginpage extends TestSuiteBase{
 	//Initialization the browser
 	public Loginpage(Browser browser) {
 		this.browser=browser;
-		commonmethods=new CommonMethods(browser);
-
 	}
 
 

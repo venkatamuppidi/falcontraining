@@ -6,8 +6,8 @@
 
 	<test name="SampleTest">
 		<classes>
-		 <!-- <class name="com.ui.automation.testscript.TestSearchingforProduct" />  -->
-		 <class name="com.ui.automation.testscript.TestHotSauces" />
+		 <class name="com.ui.automation.testscript.TestSearchingforProduct" />
+		 <class name="com.ui.automation.testscript.TestHotSauces" /> -->
 		 
 			
 		</classes>

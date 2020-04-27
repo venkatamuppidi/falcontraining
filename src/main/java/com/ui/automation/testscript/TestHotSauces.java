@@ -24,8 +24,7 @@ import
 com.ui.automation.config.Constants;
 import
 com.ui.automation.dataprovider.Testdata;
-import
-com.ui.automation.helper.CommonMethods;
+
 import
 com.ui.automation.helper.Ecommercshelper;
 import
@@ -34,7 +33,6 @@ import
 com.ui.automation.pages.HomePage;
 import com.ui.automation.pages.HotsaucesPage;
 import com.ui.automation.pages.Loginpage;
-import com.ui.automation.pages.Productpage;
 import
 com.ui.automation.pages.ShoppingCartPage;
 import
@@ -55,9 +53,7 @@ public class TestHotSauces extends TestSuiteBase {
 	Testdata testData=new Testdata();
 	Ecommercshelper Echelper; 
 	Loginpage loginpage;
-	Productpage productpage;
 	HomePage homepage; 
-	CommonMethods	commonmethods; 
 	ClearancePage clearancePage; 
 	ShoppingCartPage shoppingcart;
 	HotsaucesPage hotsaucesPage;
@@ -78,9 +74,7 @@ public class TestHotSauces extends TestSuiteBase {
 		Echelper = new	Ecommercshelper(browser);
 		homepage=new HomePage(browser); 
 		loginpage=new Loginpage(browser); 
-		productpage =new Productpage(browser);
 		shoppingcart=new ShoppingCartPage(browser);
-		commonmethods =new CommonMethods(browser);
 		clearancePage=new ClearancePage(browser);
 		hotsaucesPage =new HotsaucesPage(browser);
 		Echelper.launchsite(os, osVersion,br, browserVersion);
@@ -91,28 +85,14 @@ public class TestHotSauces extends TestSuiteBase {
 		Object[][]	testdata=testData.testdata(testDataFilePath, testDataSheetName);
 		return	testdata;
 		}
-	
-	/*
-	 * @DataProvider(name = "product") public Object[][] getProductData() {
-	 * Object[][] testdata1=testData.testdata(testDataFilePath,
-	 * Product_testDataSheetName); return testdata1; }
-	 */
-	 
-
 	@Test (dataProvider="testdata")
 	public void placeNewlyArrived(String username,String password,String
 			Country) {
 		report.info("Log into website ");
 		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
-		homepage.clickonlogin(); 
-		report.info("enter the username");
-		loginpage.enterUsername(username);
-		report.info("enter the password");
-		loginpage.enterpassword(password);
-		loginpage.clickonLoginbutton();
-		browser.getWait().implicitWait(Constants.MIN_WAIT_TIME);
-		System.out.println("countryname"+Country);
+		Echelper.login(username, password, Country);
 		homepage.selectcountry(Country);
+		VerificationManager.verifyString(browser.getDriver().findElement(By.xpath(Homepage.getProperty("imageverification"))).getAttribute("title"), Country, "Country name is same");
 		homepage.clickHotsauceslink(); 
 		try {
 			xlsReader.setPath(testDataFilePath);
@@ -123,10 +103,10 @@ public class TestHotSauces extends TestSuiteBase {
 		int rowCount = xlsReader.getRowCount(Product_testDataSheetName);
 		for (int iRow = 1; iRow <= rowCount; iRow++) {
 			String manufuturename=xlsReader.getCellDataByColumnName(Product_testDataSheetName, "Manufacturer", iRow);
-			System.out.println("asndkn@@&^%$"+manufuturename);
 			browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
-		hotsaucesPage.clickonManufuturedropdown(manufuturename);
+		hotsaucesPage.selectManufuturename(manufuturename);
 		String productname=hotsaucesPage.selectNewArrival();
+		browser.getWait().HardPause(Constants.MIN_WAIT_TIME);
 		VerificationManager.verifyString(productname,
 		browser.getDriver().findElement(By.xpath(Shopingcart.getProperty("Verify_Product_Name"))).getText(), "Product name same");
 		Boolean present=true;

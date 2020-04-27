@@ -46,7 +46,9 @@ public class HomePage {
 	public  void selectcountry(String countryname) {
 		report.info("Select the country name");
 		browser.getDriver().findElement(By.cssSelector(Homepage.getProperty("Homepage_countryname"))).click();
+
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_country_dropdown")+countryname+Homepage.getProperty("Homepage_endpoint"))).click();	
+
 	}
 	// Click on Home button
 	public void clickonHomelink() {
@@ -61,21 +63,21 @@ public class HomePage {
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("HomePage_Clearance"))).click();
 		return new ClearancePage(browser);
 	}
-	
-	  public HotsaucesPage clickHotsauceslink() {
-	  report.info("click on Clearance button ");
-	  browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_HotSauces"))).click(); 
-	  return new HotsaucesPage(browser); 
-	  }
-	 
-	
+
+	public HotsaucesPage clickHotsauceslink() {
+		report.info("click on Clearance button ");
+		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_HotSauces"))).click(); 
+		return new HotsaucesPage(browser); 
+	}
+
+
 	//Search for the product in search box
 	public void Searchforproduct(String productname) {
 		report.info("Search for the product");
 		browser.getTextField().enterTextField(LocatorType.NAME, "q", productname);
 		browser.getDriver().findElement(By.name("q")).clear();
-	browser.getDriver().findElement(By.name("q")).sendKeys(productname);
-	browser.getKey().pressKey(LocatorType.NAME, "q", KeyType.ENTER);
+		browser.getDriver().findElement(By.name("q")).sendKeys(productname);
+		browser.getKey().pressKey(LocatorType.NAME, "q", KeyType.ENTER);
 
 	}
 	//Logout the user
@@ -83,7 +85,25 @@ public class HomePage {
 		report.info("click on logout");
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_logout"))).click();
 		browser.getDriver().findElement(By.xpath(Homepage.getProperty("Homepage_logoutbutton"))).click();
-		}
+	}
+	public void selectonMechandisedress(String gendername) {
+		report.info("Click on Mechandise");
+		browser.getMouse().mouseHover((WebElement) By.cssSelector(Homepage.getProperty("merchandise")));
+		selectgender(gendername);
+	}
+	public void selectgender(String gendername) {
+		report.info("select the gender "+gendername);
+		browser.getDriver().findElement(By.xpath(Homepage.getProperty("selectgender")+gendername+Homepage.getProperty("Homepage_endpoint"))).click();
+	}
 
+	public void clickshoppingcart() {
+		report.info("Click on shopping cart");
+		browser.getDriver().findElement(By.cssSelector(Homepage.getProperty("Shoppingcart"))).click();
+
+	}
+	public void clickonViewCart() {
+		report.info("Click on View your Cart");
+		browser.getDriver().findElement(By.cssSelector(Homepage.getProperty("View_to_your_Cart"))).click();
+	}
 
 }
